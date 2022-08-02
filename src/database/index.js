@@ -1,11 +1,11 @@
 const Sequelize = require("sequelize");
 
-const DB_NAME = "lavie";
+const DB_NAME = "la-vie";
 const DB_USER = "root";
-const DB_PASS = "cawetr11"; //alterar de acordo com a senha do seu banco
+const DB_PASS = "mysql"; //alterar de acordo com a senha do seu banco
 const DB_CONFIG = {
   dialect: "mysql",
-  host: "localhost",
+  host: "127.0.0.1",
   port: 3306,
 };
 
@@ -23,6 +23,7 @@ async function hasConnection() {
     await db.authenticate();
     console.log("Banco dados conectado!");
   } catch (error) {
+    console.log(error)
     console.error("Erro ao tentar se conectar ao banco de dados1");
   }
 }
