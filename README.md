@@ -2,13 +2,13 @@
 
 ## Challenge
 
-<p>
-To help with their schedules, fictional company La vie needed an API that allows them to create records of psychologists, patients and medical records. In a conversation with front end developers and PO, it was raised the need of a group of endpoints. 
-</p>
+
+Fictional company La vie needed an API that allows them to create records of psychologists, patients and medical records. Endpoints and requests details are documented on [La Vie API Doc](https://www.postman.com/gold-desert-487027/workspace/handson3-grupo12-lavie/documentation/20804775-fd9e0316-2c15-4e5e-abee-1b98c8a618ed)!
+
 
 <table>
   <tr>
-    <td valign="top"; style="border:none"><img src="https://github.com/pedro-utz/dindin/blob/master/img/banner-dindin.jpg"/></td>
+    <td valign="top"; style="border:none"><img src="https://github.com/pedro-utz/lavie-api/blob/master/src/img/lavie-banner.jpg"/></td>
   </tr>
 </table>
 
@@ -26,7 +26,7 @@ To help with their schedules, fictional company La vie needed an API that allows
 
 <table>
   <tr>
-    <td valign="top"; style="border:none"><img src=""/></td>
+    <td valign="top"; style="border:none"><img src="https://github.com/pedro-utz/lavie-api/blob/master/src/img/lavie-api-arc.jpg"/></td>
   </tr>
 </table>
 
@@ -39,11 +39,11 @@ To help with their schedules, fictional company La vie needed an API that allows
 
 <table>
   <tr>
-    <td valign="top"; style="border:none"><img src=""/></td>
+    <td valign="top"; style="border:none"><img src="https://github.com/pedro-utz/lavie-api/blob/master/src/img/database.jpg"/></td>
   </tr>
 </table>
 
-<h2> Running </2>
+## Running La Vie locally
 
 #### Cloning Project
 ```sh
@@ -62,8 +62,9 @@ $ npm install
 ```
 #### Run API
 ```sh
-$ npm run dev 
+$ npm run start
 ```
 
-<p> After cloning the project you might reveal "index.html" in File Explorer and open with your browser or launch a local development server with <a href="https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer">Live Server extension</a>.</p>
+## You are ready to go! 
+Start using API by sending requests to the endpoints documented on: [La Vie API Doc](https://www.postman.com/gold-desert-487027/workspace/handson3-grupo12-lavie/documentation/20804775-fd9e0316-2c15-4e5e-abee-1b98c8a618ed)
 
